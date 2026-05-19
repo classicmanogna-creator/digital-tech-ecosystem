@@ -32,7 +32,7 @@ function App() {
             <Route path="/register" element={!user ? <Register /> : <Navigate to="/" />} />
             <Route path="/login" element={!user ? <Login /> : <Navigate to="/" />}/>
             <Route path="/marketplace" element={user ? <Marketplace /> : <Navigate to="/register" />} />
-            <Route path="/notes" element={user ? <Notes /> : <Navigate to="/register" />} />
+            <Route path="/Notes" element={user ? <Notes /> : <Navigate to="/register" />} />
             <Route path="/about" element={user ? <About /> : <Navigate to="/register" />} />
             <Route path="/repair" element={user ? <Repair /> : <Navigate to="/register" />} />
             <Route path="/rental" element={user ? <Rental /> : <Navigate to="/register" />} />
