@@ -1,0 +1,12 @@
+.market {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 300px));
+  justify-content: center; /* centers cards */
+  gap: 25px;
+  padding: 20px;
+}

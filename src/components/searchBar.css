@@ -1,0 +1,16 @@
+.search {
+  padding: 8px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+/* .img-1 {
+  width: 30px;
+  background-color: grey;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+} */
+.img-1 {
+  background-color: grey;
+}

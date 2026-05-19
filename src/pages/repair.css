@@ -1,0 +1,90 @@
+/* Full page layout */
+.repair-container {
+  min-height: 100vh;
+  padding: 30px;
+  background: #f4f6f8;
+}
+
+/* Input box section */
+.repair-box {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.repair-box h2 {
+  margin-bottom: 15px;
+}
+
+/* Input */
+.repair-box input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.repair-box button {
+  padding: 10px 20px;
+  background: #00adb5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.repair-box button:hover {
+  background: #019ca3;
+}
+
+/* Complaint list */
+.complaint-list {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Complaint card */
+.complaint-card {
+  background: white;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: 0.3s;
+}
+
+.complaint-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Status */
+.status {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  padding: 6px 10px;
+  border: none;
+  background-color: #e53935;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+}

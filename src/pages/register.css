@@ -1,0 +1,11 @@
+.auth {
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+.auth input {
+  margin: 20px;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+}

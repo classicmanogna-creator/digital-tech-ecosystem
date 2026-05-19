@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #1e1e2f;
+  color: white;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #ddd;
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #1e1e2f;
+  color: white;
+}
+
+/* links */
+.links a {
+  margin: 0 10px;
+  color: #ddd;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+/* 🔥 ACTIVE LINK */
+.links a.active {
+  color: #63dcef;
+}
+
+.links a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: #ddd;
+  border-radius: 2px;
+}
+
+/* hover effect */
+.links a:hover {
+  color: #547354;
+}
+
+/* right section */
+.right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

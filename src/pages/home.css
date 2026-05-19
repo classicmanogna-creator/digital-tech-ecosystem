@@ -1,0 +1,30 @@
+.home {
+  background: #eaeded;
+  padding-bottom: 40px;
+}
+
+/* 🔥 Banner */
+.banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.get-started-btn {
+  background-color: #ffd814;   /* Yellow */
+  color: white;               /* White text */
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;          /* Centers the button */
+  text-align: center;
+  transition: 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #f7ca00;
+  color: black;
+}

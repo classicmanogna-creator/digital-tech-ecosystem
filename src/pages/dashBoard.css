@@ -1,0 +1,24 @@
+.dash {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border: solid;
+  border-radius: 10px;
+  border-color:aliceblue;
+}
+
+.dash-container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/1200x/68/a9/d5/68a9d560a790566204a15fa7039ae085.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dash h2{
+  color:beige;
+} 

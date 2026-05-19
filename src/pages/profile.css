@@ -1,0 +1,13 @@
+.profile {
+  padding: 20px;
+  text-align: center;
+}
+.profile h2 {
+  margin: 10px;
+}
+.profile p {
+  margin: 10px;
+}
+.profile button {
+  margin: 10px;
+}
