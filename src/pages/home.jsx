@@ -1,7 +1,5 @@
 import "./home.css";
-import products from "../data/product";
 import Footer from '../components/footer'
-import Contact from './contact'
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -12,6 +10,7 @@ const Home = () => {
     document.title = "Digital Tech Ecosystem";
     }, []);
   return (
+    <>
     <div className="home">
 
       {/* 🔥 HERO BANNER */}
@@ -26,6 +25,9 @@ const Home = () => {
           }> Get Started </button>
 
     </div>
+
+    <Footer />
+    </>
   );
 };
 

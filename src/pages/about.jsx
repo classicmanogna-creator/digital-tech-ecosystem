@@ -17,6 +17,8 @@ const About = () => {
     </div>
     </div>
   );
+
+  <Footer />
 }
 
 export default About;
