@@ -1,5 +1,4 @@
 import "./home.css";
-import Footer from '../components/footer'
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -25,8 +24,6 @@ const Home = () => {
           }> Get Started </button>
 
     </div>
-
-    <Footer />
     </>
   );
 };

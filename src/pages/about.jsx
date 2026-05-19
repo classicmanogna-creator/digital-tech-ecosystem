@@ -1,7 +1,6 @@
 import React from 'react'
 import { AppContext } from "../context/appContext";
 import "./about.css"
-import Footer from '../components/footer'
 const About = () => {
   return (
     <div className='about-page'>
@@ -17,8 +16,6 @@ const About = () => {
     </div>
     </div>
   );
-
-  <Footer />
 }
 
 export default About;
