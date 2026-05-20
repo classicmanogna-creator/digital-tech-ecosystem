@@ -1,5 +1,4 @@
 import React from 'react'
-import { AppContext } from "../context/appContext";
 import "./about.css"
 const About = () => {
   return (
