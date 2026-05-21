@@ -4,9 +4,6 @@ import "./contact.css";
 
 const Contact = () => {
   const {
-    cart,
-    removeFromCart,
-    getTotal,
     buyNowItems,
     removeBuyNow,
     getBuyNowTotal
