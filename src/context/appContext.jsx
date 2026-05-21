@@ -12,7 +12,7 @@ const AppProvider = ({ children }) => {
   // 🔄 LOAD DATA FROM LOCALSTORAGE
   useEffect(() => {
     const storedUser = JSON.parse(localStorage.getItem("user"));
-    const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    const storedCart = JSON.parse(localStorage.getItem("cart"));
     const storedPosts = JSON.parse(localStorage.getItem("posts")) || [];
     const storedRentals = JSON.parse(localStorage.getItem("rentals")) || [];
     const storedBuyNow = JSON.parse(localStorage.getItem("buyNow")) || [];
@@ -41,23 +41,6 @@ const AppProvider = ({ children }) => {
     localStorage.setItem("buyNow", JSON.stringify(buyNowItems));
   }, [buyNowItems]);
 
-  // 🔐 LOGIN
-  const login = (email, password) => {
-    const stored = JSON.parse(localStorage.getItem("user"));
-
-    if (!stored) {
-      alert("No account found. Please register first.");
-      return false;
-    }
-
-    if (stored.email === email && stored.password === password) {
-      setUser(stored);
-      return true;
-    } else {
-      alert("Invalid credentials");
-      return false;
-    }
-  };
 
   // 📝 REGISTER
   const register = (data) => {
@@ -132,7 +115,7 @@ const clearPosts = () => {
         rentals,
         buyNowItems,
 
-        login,
+        
         register,
         logout,
 

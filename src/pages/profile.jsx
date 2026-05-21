@@ -5,7 +5,7 @@ import "./profile.css";
 const Profile = () => {
   const { user, logout } = useContext(AppContext);
 
-  if (!user) return <h2>Please login</h2>;
+  if (!user) return <h2>Please register</h2>;
 
   return (
     <div className="profile">

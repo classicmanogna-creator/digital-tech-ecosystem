@@ -33,28 +33,8 @@ const Contact = () => {
           <h3>Total: ₹{getBuyNowTotal()}</h3>
         </>
       ) : (
-        <>
-          {/* ✅ CART FALLBACK */}
-          {cart.length === 0 ? (
             <p>No items selected</p>
-          ) : (
-            <>
-              {cart.map((item) => (
-                <div className="product-info" key={item.id}>
-                  <h3>{item.name}</h3>
-                  <p>₹{item.price}</p>
-
-                  <button onClick={() => removeFromCart(item.id)}>
-                    Remove
-                  </button>
-                </div>
-              ))}
-
-              <h3>Total: ₹{getTotal()}</h3>
-            </>
-          )}
-        </>
-      )}
+          ) }
 
       <div className="contact-box">
         <p><strong>Email:</strong> support@techecosystem.com</p>

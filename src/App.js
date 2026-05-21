@@ -11,7 +11,6 @@ import Notes from "./pages/Notes";
 import Repair from "./pages/repair";
 import Rental from "./pages/rental";
 import Dashboard from "./pages/dashBoard";
-import Login from "./pages/login";
 import Register from "./pages/register";
 import Profile from "./pages/profile";
 import About from './pages/about';
@@ -30,7 +29,6 @@ function App() {
           <Routes>
             <Route path="/" element={user ? <Home /> : <Navigate to="/register" />}/>
             <Route path="/register" element={!user ? <Register /> : <Navigate to="/" />} />
-            <Route path="/login" element={!user ? <Login /> : <Navigate to="/" />}/>
             <Route path="/marketplace" element={user ? <Marketplace /> : <Navigate to="/register" />} />
             <Route path="/Notes" element={user ? <Notes /> : <Navigate to="/register" />} />
             <Route path="/about" element={user ? <About /> : <Navigate to="/register" />} />
